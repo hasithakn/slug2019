@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
 
 class BasicCard extends StatefulWidget {
-  BasicCard({this.desc, this.name, this.result, this.time, this.isOver});
+  BasicCard({this.desc, this.name, this.result, this.isOver});
 
   final String name;
   final String desc;
   final String result;
-  final String time;
   final bool isOver;
 
   @override
@@ -39,7 +38,7 @@ class _BasicCardState extends State<BasicCard> {
             children: <Widget>[
               Padding(
                 padding: const EdgeInsets.all(8.0),
-                child: Icon(Icons.all_inclusive, size: 50),
+                child: Icon(Icons.arrow_forward_ios, size: 50),
               ),
               descColumn(),
               time()
@@ -83,7 +82,7 @@ class _BasicCardState extends State<BasicCard> {
         padding: const EdgeInsets.all(8.0),
         child: Container(
           child: Text(
-            widget.time,
+            "Today",
             style: TextStyle(fontWeight: FontWeight.bold),
           ),
         ),
