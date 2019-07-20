@@ -103,7 +103,7 @@ class _HomeState extends State<Home> {
         context: context,
         initialDate: date,
         firstDate: DateTime(2019, 4),
-        lastDate: DateTime(2020, 4));
+        lastDate: DateTime(2019, 10));
     if (picked != null && picked != date) {
       print(picked);
       date = picked;
