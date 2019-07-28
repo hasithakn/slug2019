@@ -2,26 +2,54 @@ import 'package:flutter/material.dart';
 
 
 class SportDetails{
-    String _name;
-    String _desc;
-    String _result;
+    String _sport;
+    String _venue;
+    String _uni1;
+    String _uni2;
+    String _winUni;
+    String _comment;
+    String _picUrl;
 
-    String get name => _name;
+    String get uni2 => _uni2;
 
-    set name(String value) {
-      _name = value;
+    set uni2(String value) {
+      _uni2 = value;
     }
 
-    String get desc => _desc;
+    String get picUrl => _picUrl;
 
-    set desc(String value) {
-      _desc = value;
+    set picUrl(String value) {
+      _picUrl = value;
     }
 
-    String get result => _result;
+    String get uni1 => _uni1;
 
-    set result(String value) {
-      _result = value;
+    set uni1(String value) {
+      _uni1 = value;
+    }
+
+    String get comment => _comment;
+
+    set comment(String value) {
+      _comment = value;
+    }
+
+    String get sport => _sport;
+
+    set sport(String value) {
+      _sport = value;
+    }
+
+    String get winUni => _winUni;
+
+    set winUni(String value) {
+      _winUni = value;
+    }
+
+    String get venue => _venue;
+
+    set venue(String value) {
+      _venue = value;
     }
 
 

@@ -74,11 +74,13 @@ class _HomeState extends State<Home> {
                             itemCount: details.length,
                             itemBuilder: (context, i) {
                               return BasicCard(
-                                name: details[i].name,
-                                result: details[i].result,
-                                desc: details[i].desc,
-                                isOver:
-                                    (details[i].result == "") ? false : true,
+                                sport: details[i].sport,
+                                winUni: details[i].winUni,
+                                comment: details[i].comment,
+                                picUrl: details[i].picUrl,
+                                uni1: details[i].uni1,
+                                uni2: details[i].uni2,
+                                venue: details[i].venue,
                               );
                             },
                           ))),
