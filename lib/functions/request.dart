@@ -25,8 +25,8 @@ class Func {
 
   Future<List<SportDetails>> getDetails(String date) async {
     print(date);
-//    String link = "http://192.248.50.234/slugandroidapi.php";
-    String link = "http://demo1738540.mockable.io/api";
+    String link = "http://192.248.50.234/slugandroidapi.php";
+//    String link = "http://demo1738540.mockable.io/api";
     link = link + "?date=" + date;
     print(link);
     List<SportDetails> s = new List<SportDetails>();
